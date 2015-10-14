@@ -17,3 +17,6 @@
 !/vendor/symfony/
 !/vendor/jdorn/
 !/vendor/nikic/
+!/vendor/empty
+!/vendor/cakephp-plugins.php
+!/vendor/autoload.php
