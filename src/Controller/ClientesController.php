@@ -34,7 +34,12 @@ class ClientesController extends AppController
         $cliente = $this->Clientes->get($id, [
             'contain' => ['Vendas']
         ]);
+        
+       
+        //exit($cliente->teste2());
+        
         $this->set('cliente', $cliente);
+        
         $this->set('_serialize', ['cliente']);
     }
 

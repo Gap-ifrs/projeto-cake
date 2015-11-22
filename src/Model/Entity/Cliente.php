@@ -31,4 +31,8 @@ class Cliente extends Entity
         '*' => true,
         'id' => false,
     ];
+    
+    public function teste2(){
+        return $this;
+    }
 }
