@@ -47,11 +47,7 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header"><?= __('Usuarios') ?></h1>
-          
-
-      
-
-         
+             
           <div class="table-responsive">
             <table class="table table-striped">
              
@@ -68,10 +64,7 @@
                     <th class="actions"><?= __('Actions') ?></th>
                 </tr>
               </thead>
-              
-              
-              
-              
+
               <tbody>
                 <?php foreach ($usuarios as $usuario): ?>
             <tr>

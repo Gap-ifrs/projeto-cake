@@ -28,10 +28,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->css('bootstrap.css') ?>
     <?= $this->Html->css('bootstrap-theme.css') ?>
-    
+    <?= $this->Html->css('bootstrap-select.css') ?>
     
     <?= $this->Html->script('jquery.js') ?>
     <?= $this->Html->script('bootstrap.js') ?>
+    <?= $this->Html->script('bootstrap-select.js') ?>
     <?= $this->Html->css('dashboard.css') ?>
 
     <?= $this->fetch('meta') ?>
@@ -49,7 +50,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <span class="icon-bar"></span>
           </button>
           <!--<a class="navbar-brand" href=""><?= $this->fetch('title') ?></a>-->
-          <a class="navbar-brand" href="pages">GAP</a>
+          <?= $this->Html->link(__('GAP'), ['controller' => 'Pages', 'action' => 'index'], array('class' => 'navbar-brand')) ?>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">

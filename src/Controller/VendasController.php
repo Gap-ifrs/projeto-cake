@@ -40,7 +40,8 @@ class VendasController extends AppController
         $this->set('venda', $venda);
         $this->set('_serialize', ['venda']);
     }
-
+    
+    
     /**
      * Add method
      *

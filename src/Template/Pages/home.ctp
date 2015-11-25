@@ -62,6 +62,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
+            
+          <ul class="nav nav-sidebar">
+             
+              <li><?= $this->Html->link(__('Relatorios'), ['controller' => 'Relatorios','action' => 'index' ]  ) ?></li>
+              
+              
+          </ul>
+            
+       
           
           <ul class="nav nav-sidebar">
               <li><?= $this->Html->link(__('Usuarios'), ['controller' => 'Usuarios', 'action' => 'index']) ?></li>
